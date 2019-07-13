@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>CloudContacts</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="./css/style.css"> 
+  <script src="./js/common.js"></script> 
+
+</head>
+<body style="position: relative; margin: 0; padding: 0; min-width: 320px; overflow-x: hidden;">
+
+
+<h1 style="text-align: center;">Блок контактов отобразится на разрешении ниже 768px.</h1>
+
+<!-- Start Cloud Contacts -->
+
+<div class="cloudcontacts cloudcontacts--animations">
+
+    <button type="button" class="cloudcontacts__button">
+      <img src="./img/phone-icon.png" alt="Позвонить" title="Связаться с нами">
+      <img src="./img/viber-icon.png" alt="Написать в Viber">
+      <img src="./img/whatsapp-icon.png" alt="Написать в WhatsApp">
+    </button>
+
+    <div class="cloudcontacts__links-box">
+
+      <a class="cloudcontacts__link" href="tel:+123456789" title="Позвонить">
+        <img src="./img/phone-icon.png" alt="Позвонить">
+      </a>
+
+      <a class="cloudcontacts__link" href="viber://add?number=123456789" title="Написать в Viber" target="_blank">
+        <img src="./img/viber-icon.png" alt="Написать в Viber">
+      </a>
+
+      <a class="cloudcontacts__link" href="//api.whatsapp.com/send?phone=123456789" title="Написать в WhatsApp" target="_blank">
+        <img src="./img/whatsapp-icon.png" alt="Написать в WhatsApp">
+      </a>
+
+    </div>
+
+</div>
+
+<!-- End Cloud Contacts -->
+
+
+</body>
+</html>
